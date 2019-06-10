@@ -23,8 +23,7 @@ a:hover {
   color: blue;
 }
 
-#page-title {
-  text-align: center;
+.title, .subtitle {
   margin: 1rem;
 }
 
