@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#navigation {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+#page-title {
+  text-align: center;
+  margin: 1rem;
+}
+
+#toc>li {
+  margin: 1rem;
+}

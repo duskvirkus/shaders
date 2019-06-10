@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#flex-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#canvas-container {
+  display: flex;
+  margin: auto;
+}
