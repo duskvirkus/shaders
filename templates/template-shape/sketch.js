@@ -25,7 +25,6 @@ function setup() {
 function draw() {
 
   s.setUniform('resolution', [width, height]);
-  s.setUniform('mouse', map(mouseX, 0, width, 0, 7));
   s.setUniform('time', frameCount * 0.01);
 
   shader(s);

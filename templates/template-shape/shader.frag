@@ -2,6 +2,11 @@
 precision mediump float;
 #endif
 
+uniform float time;
+uniform vec2 resolution;
+
+varying vec2 position;
+
 void main() {
     vec3 color = vec3(0.0, 0.0, 1.0);
     gl_FragColor = vec4(color, 1.0);

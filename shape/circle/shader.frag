@@ -3,6 +3,8 @@ precision mediump float;
 #endif
 
 uniform float time;
+uniform vec2 resolution;
+
 varying vec2 position;
 
 float shapeCircle(vec2 position, float radius) {
