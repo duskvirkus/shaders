@@ -37,5 +37,5 @@ dist
 
 obj
 bin
-!bin/data
+!data
 .vs
